@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Market() {
   return(
     <>
@@ -29,6 +31,8 @@ export default function Market() {
           <li>The UI can be very simple but must show the best big and best offer (the price to buy and the price to sell) correctly at any point</li>
         </ol>
       </p>
+
+      <div>Solution <Link href="./market-solution">here</Link></div>
     </>
   )
 }

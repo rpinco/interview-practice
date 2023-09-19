@@ -1,0 +1,48 @@
+ .loginContainer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  background-color: #fafafa;
+ }
+
+ .loginForm {
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+
+ .loginField {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: gray
+ }
+
+ .loginTitle{
+  font-weight: 600;
+  font-size: 20px;
+ }
+
+ .loginButton {
+  padding: 20px;
+  height: 20px;
+  background-color: rgb(81, 67, 230);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  cursor: pointer;
+ }
+
+ .loginInput {
+  font-size: 20px;
+  height: 40px;
+  padding: 10px;
+ }

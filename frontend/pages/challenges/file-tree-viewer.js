@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function FileTreeViewer() {
   return(
     <>
@@ -15,6 +17,8 @@ export default function FileTreeViewer() {
           <li>You should be able to expand/collapse any part of the tree</li>
           <li>Basic aesthetics with pure CSS</li>
         </ol>
+
+        <div>Solution <Link href="./FileTree">here</Link></div>
       </p>
     </>
   )
