@@ -46,3 +46,24 @@
   height: 40px;
   padding: 10px;
  }
+
+ .passwordField{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ }
+
+ .passShow{
+  text-decoration: underline;
+  cursor: pointer;
+ }
+
+ .fieldError {
+  color: red;
+ }
+
+ .response {
+  font-size: 25px;
+  color: darkgray;
+ }
+ 

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Questionnaire() {
   return(
     <>
@@ -17,6 +19,8 @@ export default function Questionnaire() {
         <br />
         A multiple answer question is correct if <strong>all of the selected answers</strong> are correct
       </p>
+
+      <div>Solution <Link href="./questionnaire-solution">here</Link></div>
     </>
   )
 }

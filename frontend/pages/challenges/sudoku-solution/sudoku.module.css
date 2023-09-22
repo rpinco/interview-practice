@@ -1,0 +1,40 @@
+.sudoku {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sudokuCell {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+
+.sudokuCell:nth-child(3n) {
+  border-right: 2px solid gray;
+}
+
+.sudokuRow:nth-child(3n) {
+  border-bottom: 2px solid gray;
+}
+
+
+.validate{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(81, 67, 230);
+  color: white;
+  border:none;
+}
+
+.errorMessage{
+  color: red;
+  margin: 20px;
+}
+
+.goBack {
+  border: none;
+  background-color: white;
+}

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Sudoku() {
   return(
     <>
@@ -13,6 +15,8 @@ export default function Sudoku() {
           The use should be able to clear the board
         </li>
       </ol>
+
+      <div>Solution <Link href="./sudoku-solution">here</Link></div>
     </>
   )
 }
